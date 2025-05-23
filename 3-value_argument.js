@@ -3,3 +3,4 @@ console.log(print);
 }
 printer('HBTN')
 printer()
+printer("HBTN cool")
