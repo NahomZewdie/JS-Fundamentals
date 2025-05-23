@@ -1,0 +1,3 @@
+function printer (print="No argument"){
+console.log(print);
+}
