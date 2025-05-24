@@ -1,3 +1,2 @@
-function concat (firstword, secondword){
-    console.log(`${firstword} is ${secondword} `);
-}
+
+    console.log(process.argv[2] + " is " + process.argv[3]);
