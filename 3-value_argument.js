@@ -1,5 +1,6 @@
 function printer (print="No argument"){
-console.log(print);
+return print;
 }
-printer('HBTN')
-printer()
+console.log(printer('HBTN'));
+console.log(printer());
+console.log(printer("HBTN cool"));
