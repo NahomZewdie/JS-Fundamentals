@@ -1,2 +1,2 @@
 let firstArg = process.argv[2];
-console.log(+firstArg);
+console.log(Number(firstArg));
