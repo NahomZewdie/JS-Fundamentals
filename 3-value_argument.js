@@ -1,4 +1,6 @@
-function printer (print= "No argument"){
-return print;
-}
-console.log(printer('HBTN'));
+
+if (process.argv[2] === undefined) {
+    console.log("No argument");
+  } else {
+    console.log(process.argv[2]);
+  }
