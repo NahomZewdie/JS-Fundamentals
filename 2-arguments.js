@@ -7,4 +7,6 @@ function printer (print){
     
     }
    
-    
+printer();
+printer("Best");
+printer("Best school");
