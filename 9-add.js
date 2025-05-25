@@ -1,5 +1,7 @@
-function add (a, b){
-    sum=a+b;
-    return sum;
+function add(a, b) {
+  return a + b;
 }
-console.log(add(process.argv[2],process.argv[3]));
+const num1 = Number(process.argv[2]);
+const num2 = Number(process.argv[3]);
+const sum = add(num1, num2);
+console.log(sum);
