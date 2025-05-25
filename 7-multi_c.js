@@ -1,9 +1,11 @@
-let x = Number(process.argv[2]);
+const x = Number(process.argv[2]);
 
-if (!isNaN(x)){
-    for (i=0; i<=x; i++){
+    if (Number.isInteger(x)) {
+      let i=0;
+      while (i < x) {
         console.log("C is fun");
-    }}
-    else{
-     console.log("Missing number of occurrences");
+        i++;
+      }
+    } else {
+      console.log("Missing number of occurrences");
     }
